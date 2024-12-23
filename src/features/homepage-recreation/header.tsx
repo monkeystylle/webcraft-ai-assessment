@@ -4,7 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
 
 const navigation = [
-  { name: 'Lifestyle & Home', href: '/homepage-recreation' },
+  { name: 'Lifestyle & Home', href: '/homepage-recreation/lifestyle' },
   { name: 'Beauty & Wellness', href: '/homepage-recreation/beauty-wellness' },
   { name: 'Technology', href: '/homepage-recreation/technology' },
   { name: 'Finance', href: '/homepage-recreation/finance' },

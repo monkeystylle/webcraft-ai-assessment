@@ -15,7 +15,7 @@ const ArticlePage = async ({ params }: ArticlePageProps) => {
 
   return (
     <div className="min-h-screen flex justify-center items-center  ">
-      <h1 className="text-2xl font-bold">Showing Article: {articleId}</h1>
+      <h1 className="text-2xl font-bold">Showing : {articleId}</h1>
     </div>
   );
 };
