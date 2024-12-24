@@ -7,15 +7,15 @@ export default function LandingPage() {
         {/* Hero Section */}
         <section className="flex flex-col items-center text-center space-y-8">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight animate-fade-in-down">
-            Unlock Your Dog's Hidden Genius: Transform Any Stubborn Pup into an
-            Obedient, Well-Behaved Companion in Just 21 Days!
+            Unlock Your Dog&apos;s Hidden Genius: Transform Any Stubborn Pup
+            into an Obedient, Well-Behaved Companion in Just 21 Days!
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto animate-fade-in">
-            Discover the Revolutionary 'Neural Activation' Training System That
-            Uses Ancient Brain-Boosting Games to Eliminate Bad Behavior –
-            Without Force or Harsh Methods
+            Discover the Revolutionary &apos;Neural Activation&apos; Training
+            System That Uses Ancient Brain-Boosting Games to Eliminate Bad
+            Behavior – Without Force or Harsh Methods
           </p>
-          <div className=" relative animate-fade-in-up w-full max-w-6xl aspect-video">
+          <div className="relative animate-fade-in-up w-full max-w-6xl aspect-video">
             <Image
               src="https://picsum.photos/id/42/200/300"
               alt="Happy dog with owner"
@@ -76,7 +76,10 @@ export default function LandingPage() {
                 key={index}
                 className="bg-white p-6 rounded-lg shadow-md italic transform transition duration-500 hover:scale-105"
               >
-                "{testimonial.quote}" - {testimonial.author}
+                <p className="mb-2">&ldquo;{testimonial.quote}&rdquo;</p>
+                <footer className="text-gray-600 font-medium">
+                  - {testimonial.author}
+                </footer>
               </blockquote>
             ))}
           </div>
@@ -85,9 +88,9 @@ export default function LandingPage() {
         {/* Exclusive Bonus & CTA */}
         <section className="bg-blue-600 text-white p-8 rounded-lg space-y-6 text-center">
           <h2 className="text-3xl font-bold">Exclusive Bonus</h2>
-          <p className="text-xl">FREE Behavior Training Course ($67 Value)</p>
+          <p className="text-xl">FREE Behavior Training Course (\$67 Value)</p>
           <p className="text-2xl font-semibold">
-            Limited Time Offer: Get Both Courses for Just $67 (Regular $127)
+            Limited Time Offer: Get Both Courses for Just \$67 (Regular \$127)
           </p>
           <div>
             <button className="bg-yellow-400 text-blue-900 text-xl font-bold py-4 px-8 rounded-full hover:bg-yellow-300 transition duration-300 transform hover:scale-105 active:scale-95">
@@ -95,25 +98,25 @@ export default function LandingPage() {
             </button>
           </div>
           <p className="text-sm">
-            Don't wait - limited-time special pricing ends soon!
+            Don&apos;t wait - limited-time special pricing ends soon!
           </p>
         </section>
 
         {/* Guarantee */}
-        <section className="text-center space-y-4">
+        <section className="text-center space-y-4 py-8">
           <h2 className="text-2xl font-bold">Our Guarantee</h2>
-          <p className="text-xl">
-            60-Day 100% Money-Back Guarantee: If you're not amazed by your dog's
-            transformation, we'll refund every penny.
+          <p className="text-xl max-w-2xl mx-auto leading-relaxed">
+            60-Day 100% Money-Back Guarantee: If you&apos;re not amazed by your
+            dog&apos;s transformation, we&apos;ll refund every penny.
           </p>
         </section>
 
         {/* Closing Hook */}
         <section className="text-center space-y-4">
           <p className="text-xl italic">
-            "Join thousands of delighted dog owners who've discovered the secret
-            to unlocking their pet's true potential. Your dog's genius is
-            waiting to emerge!"
+            &quot;Join thousands of delighted dog owners who&apos;ve discovered
+            the secret to unlocking their pet&apos;s true potential. Your
+            dog&apos;s genius is waiting to emerge!&quot;
           </p>
           <div className="flex justify-center space-x-4">
             {['USA Today', 'Every Dog Magazine', 'Paw Nation'].map(
